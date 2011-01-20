@@ -1,19 +1,13 @@
--module(prog).
--export([main/0]).
+Cons = fun(Hd, Tl) ->
+  fun
+    (true ) -> Hd;
+    (false) -> Tl
+  end
+end,
 
-main() ->
-  Cons = fun(H, T) ->
-    fun
-      (true)  -> h;
-      (false) -> t
-    end
-  end,
+Car  = fun(L) -> L(true ),
+Cdr  = fun(L) -> L(false),
 
-  Car  = fun(L) -> L(true),
-  Cdr  = fun(L) -> L(false),
+L    = Cons(1, Cons(2, nil)),
 
-  List = Cons(1, Cons(2, nil)),
-
-  io:format("~p~n", [Car(Cdr(List))]).
-
-main().
+Car(Cdr(L)).

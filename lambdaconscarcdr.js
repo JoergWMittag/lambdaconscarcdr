@@ -1,13 +1,13 @@
 "use strict";
 
-var cons = function (h, t) {
+var cons = function (hd, tl) {
     return function (x) {
-        if (x) { return h; } else { return t; }
+        return x ? hd : tl;
     }; },
 
-    car  = function (l) { return l(true); },
+    car  = function (l) { return l(true ); },
     cdr  = function (l) { return l(false); },
 
-    list = cons(1, cons(2, null));
+    l    = cons(1, cons(2, null));
 
-car(cdr(list));
+car(cdr(l));

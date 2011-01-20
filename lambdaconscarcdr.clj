@@ -1,8 +1,8 @@
-(defn (cons h t)
-  #(if % h t))
+(defn (cons hd tl)
+  #(if % hd tl))
 
 (defn (car l)
-  (l true))
+  (l true ))
 
 (defn (cdr l)
   (l false))

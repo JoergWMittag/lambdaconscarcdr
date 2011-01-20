@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-Cons = ->(h, t) { -> x { if x then h else t end }}
-Car = -> l { l.(true) }
-Cdr = -> l { l.(false) }
+Cons = ->(hd, tl) { -> x { if x then hd else tl end }}
+Car  = -> l { l.(true ) }
+Cdr  = -> l { l.(false) }
 
-List = Cons.(1, Cons.(2, nil))
+L    = Cons.(1, Cons.(2, nil))
 
-Car.(Cdr.(List))
+Car.(Cdr.(L))

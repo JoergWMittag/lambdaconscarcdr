@@ -1,14 +1,15 @@
+#!/usr/bin/env php
+
 <?php
-$cons = function ($h, $t) {
-    return function ($x)  use (&$h, &$t) {
-        if ($x) return $h;
-        return $t;
+$cons = function ($hd, $tl) {
+    return function ($x) use (&$hd, &$tl) {
+        return $x ? $hd : $tl;
     };};
 
-$car  = function ($l) { return $l(true); };
+$car  = function ($l) { return $l(true ); };
 $cdr  = function ($l) { return $l(false); };
 
-$list = $cons(1, $cons(2, null));
+$l    = $cons(1, $cons(2, null));
 
-$car($cdr($list));
+$car($cdr($l));
 ?>

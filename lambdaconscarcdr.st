@@ -1,9 +1,9 @@
-| cons car cdr list |
+| cons car cdr l |
 
-cons := [:h :t | [:x | x ifTrue: [h] ifFalse: [t]]].
-car  := [:l | l value: true ].
+cons := [:hd :tl | [:x | x ifTrue: [hd] ifFalse: [tl]]].
+car  := [:l | l value: true  ].
 cdr  := [:l | l value: false ].
 
-list := cons value: 1 value: (cons value: 2 value: nil).
+l    := cons value: 1 value: (cons value: 2 value: nil).
 
-car value: (cdr value: list).
+car value: (cdr value: l).
