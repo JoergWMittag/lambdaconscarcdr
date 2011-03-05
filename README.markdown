@@ -23,6 +23,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**REBOL**](http://REBOL.Com/): [lambdaconscarcdr.r](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.r)
 * [**Ruby**](http://Ruby-Lang.Org/): [lambdaconscarcdr.rb](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.rb)
 * [**Scheme**](http://WWW.R6RS.Org/): [lambdaconscarcdr.scm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.scm)
+* [**Seph**](http://Seph-Lang.Org/): [lambdaconscarcdr.sp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sp)
 * [**Smalltalk**](http://Smalltalk.Org/): [lambdaconscarcdr.st](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.st)
 
 There’s also an [Erlang](http://Erlang.Org/) version in [lambdaconscarcdr.erl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.erl), which doesn’t work, because I know diddly-squat about Erlang and particularly its syntax. The same applies to the [Oz](http://WWW.Mozart-Oz.Org/) version in [lambdaconscarcdr.oz](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.oz).
