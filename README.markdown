@@ -13,7 +13,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Dart**](http://DartLang.Org/): [lambdaconscarcdr.dart](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.dart)
 * [**ECMAScript**](http://ECMAScript.Org/): [lambdaconscarcdr.js](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.js)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.falcon)
-* [**Groovy**](http://Groovy.CodeHaus.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
+* [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.io)
 * [**Ioke**](http://Ioke.Org/): [lambdaconscarcdr.ik](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ik)
 * [**Lua**](http://Lua.Org/): [lambdaconscarcdr.lua](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lua)
@@ -23,7 +23,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Python**](http://Python.Org/): [lambdaconscarcdr.py](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.py)
 * [**REBOL**](http://REBOL.Com/): [lambdaconscarcdr.r](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.r)
 * [**Ruby**](http://Ruby-Lang.Org/): [lambdaconscarcdr.rb](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.rb)
-* [**Scheme**](http://WWW.R6RS.Org/): [lambdaconscarcdr.scm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.scm)
+* [**Scheme**](http://R7RS.Org/): [lambdaconscarcdr.scm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.scm)
 * [**Seph**](http://Seph-Lang.Org/): [lambdaconscarcdr.sp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sp)
 * [**Smalltalk**](http://Smalltalk.Org/): [lambdaconscarcdr.st](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.st)
 
