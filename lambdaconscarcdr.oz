@@ -6,7 +6,7 @@ local
   fun {Car L} {L true } end
   fun {Cdr L} {L false} end
 
-  L = {Cons 1 {Cons 2 nil}}
+  Lst = {Cons 1 {Cons 2 nil}}
 in
-  {Car {Cdr L}}
+  {Car {Cdr Lst}}
 end

@@ -5,7 +5,7 @@
 (defun car (l) (funcall l T  ))
 (defun cdr (l) (funcall l NIL))
 
-(defvar *l*)
-(setf *l* (cons 1 (cons 2 NIL)))
+(defvar *lst*)
+(setf *lst* (cons 1 (cons 2 NIL)))
 
-car (cdr *l*))
+(car (cdr *lst*))

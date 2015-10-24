@@ -11,6 +11,6 @@ my $cons = sub {
 my $car  = sub { shift->(1    ) };
 my $cdr  = sub { shift->(undef) };
 
-my $l    = $cons->(1, $cons->(2, undef));
+my $lst  = $cons->(1, $cons->(2, undef));
 
-$car->($cdr->($l))
+$car->($cdr->($lst))

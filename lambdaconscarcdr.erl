@@ -8,6 +8,6 @@ end,
 Car  = fun(L) -> L(true ),
 Cdr  = fun(L) -> L(false),
 
-L    = Cons(1, Cons(2, nil)),
+Lst  = Cons(1, Cons(2, nil)),
 
-Car(Cdr(L)).
+Car(Cdr(Lst)).
