@@ -1,10 +1,10 @@
-(define (cons hd tl)
+(define (pair hd tl)
   (lambda (x)
     (if x hd tl)))
 
-(define (car l) (l #t))
-(define (cdr l) (l #f))
+(define (fst l) (l #t))
+(define (rst l) (l #f))
 
-(define lst (cons 1 (cons 2 '())))
+(define lst (pair 1 (pair 2 '())))
 
-(car (cdr lst))
+(fst (rst lst))

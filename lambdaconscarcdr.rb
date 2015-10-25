@@ -1,9 +1,12 @@
 #!/usr/bin/env ruby
 
-Cons = ->(hd, tl) { -> x { if x then hd else tl end }}
-Car  = -> l { l.(true ) }
-Cdr  = -> l { l.(false) }
+Tru  = ->(thn, _  ) { thn }
+Fls  = ->(_  , els) { els }
 
-Lst   = Cons.(1, Cons.(2, nil))
+Pair = ->(hd, tl) { -> x { x.(hd, tl) }}
+Fst  = -> l { l.(Tru) }
+Rst  = -> l { l.(Fls) }
 
-Car.(Cdr.(Lst))
+Lst   = Pair.(1, Pair.(2, nil))
+
+Fst.(Rst.(Lst))

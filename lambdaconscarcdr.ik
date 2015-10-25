@@ -1,7 +1,8 @@
-cons = fn(hd, tl, fn(x, if(x, hd, tl)))
-car  = fn(l, l(true ))
-cdr  = fn(l, l(false))
 
-lst  = cons(1, cons(2, nil))
+pair = fn(hd, tl, fn(x, if(x, hd, tl)))
+fst  = fn(l, l(true ))
+rst  = fn(l, l(false))
 
-car(cdr(lst))
+lst  = pair(1, pair(2, nil))
+
+fst(rst(lst))

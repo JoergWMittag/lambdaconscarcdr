@@ -1,10 +1,10 @@
 "use strict";
 
-const cons = (hd, tl) => x => x ? hd : tl,
+const pair = (hd, tl) => x => x ? hd : tl,,
 
-      car  = l => l(true ),
-      cdr  = l => l(false),
+      fst  = l => l(true ),
+      rst  = l => l(false),
 
-      lst  = cons(1, cons(2, null));
+      lst  = pair(1, pair(2, null));
 
-car(cdr(lst));
+fst(rst(lst));

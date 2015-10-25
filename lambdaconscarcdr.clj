@@ -1,12 +1,12 @@
-(defn cons [hd tl]
+(defn pair [hd tl]
   #(if % hd tl))
 
-(defn car [l]
+(defn fst [l]
   (l true ))
 
-(defn cdr [l]
+(defn rst [l]
   (l false))
 
-(def lst (cons 1 (pair 2 nil)))
+(def lst (pair 1 (pair 2 nil)))
 
-(car (cdr lst))
+(fst (rst lst))

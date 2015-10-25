@@ -1,13 +1,13 @@
-Cons = fun(Hd, Tl) ->
+Pair = fun(Hd, Tl) ->
   fun
     (true ) -> Hd;
     (false) -> Tl
   end
 end,
 
-Car  = fun(L) -> L(true ),
-Cdr  = fun(L) -> L(false),
+Fst  = fun(L) -> L(true ),
+Rst  = fun(L) -> L(false),
 
-Lst  = Cons(1, Cons(2, nil)),
+Lst  = Pair(1, Pair(2, nil)),
 
-Car(Cdr(Lst)).
+Fst(Rst(Lst)).

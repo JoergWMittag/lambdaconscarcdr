@@ -1,9 +1,9 @@
 #!/usr/bin/env io
 
-cons := method(hd, tl, block(x, if(x, hd, tl)))
-car  := method(l, l call(true ))
-cdr  := method(l, l call(false))
+pair := method(hd, tl, block(x, if(x, hd, tl)))
+fst  := method(l, l call(true ))
+rst  := method(l, l call(false))
 
-lst  := cons(1, cons(2, nil))
+lst  := pair(1, pair(2, nil))
 
-car(cdr(lst))
+fst(rst(lst))

@@ -1,7 +1,8 @@
-cons = (hd, tl) -> (x) -> if x then hd else tl
-car  = (l) -> l true
-cdr  = (l) -> l false
 
-lst  = cons 1, cons 2, null
+pair = (hd, tl) -> (x) -> if x then hd else tl
+fst  = (l) -> l true
+rst  = (l) -> l false
 
-car cdr lst
+lst  = pair 1, pair 2, null
+
+fst rst lst

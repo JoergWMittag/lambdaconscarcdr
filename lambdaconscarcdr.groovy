@@ -1,7 +1,8 @@
-final def Cons = { hd, tl -> { x -> x ? hd : tl }}
-final def Car  = { it(true ) }
-final def Cdr  = { it(false) }
 
-final def Lst  = Cons(1, Cons(2, null))
+final def Pair = { hd, tl -> { x -> x ? hd : tl }}
+final def Fst  = { it(true ) }
+final def Rst  = { it(false) }
 
-Car(Cdr(Lst))
+final def Lst  = Pair(1, Pair(2, null))
+
+Fst(Rst(Lst))

@@ -3,14 +3,14 @@
 use strict;
 use warnings;
 
-my $cons = sub {
+my $pair = sub {
   my ($hd, $tl) = @_;
   sub { if (shift) {$hd} else {$tl} }
 };
 
-my $car  = sub { shift->(1    ) };
-my $cdr  = sub { shift->(undef) };
+my $fst  = sub { shift->(1    ) };
+my $rst  = sub { shift->(undef) };
 
-my $lst  = $cons->(1, $cons->(2, undef));
+my $lst  = $pair->(1, $pair->(2, undef));
 
-$car->($cdr->($lst))
+$fst->($rst->($lst))

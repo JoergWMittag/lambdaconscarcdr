@@ -2,10 +2,10 @@
 
 use v6;
 
-my $cons = -> $hd, $tl { -> $x { if $x {$hd} else {$tl} }}
-my $car  = { $^l(True ) }
-my $cdr  = { $^l(False) }
+my $pair = -> $hd, $tl { -> $x { if $x {$hd} else {$tl} }}
+my $fst  = { $^l(True ) }
+my $rst  = { $^l(False) }
 
-my $lst  = $cons(1, $cons(2, Nil));
+my $lst  = $pair(1, $pair(2, Nil));
 
-$car($cdr($lst))
+$fst($rst($lst))

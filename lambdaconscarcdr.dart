@@ -1,9 +1,9 @@
 #!/usr/bin/env dart
 
-var cons = (hd, tl) => (x) => x ? hd : tl;
-var car  = (l) => l(true );
-var cdr  = (l) => l(false);
+var pair = (hd, tl) => (x) => x ? hd : tl;
+var fst  = (l) => l(true );
+var rst  = (l) => l(false);
 
-var lst  = cons(1, cons(2, null));
+var lst  = pair(1, pair(2, null));
 
-car(cdr(lst));
+fst(rst(lst));

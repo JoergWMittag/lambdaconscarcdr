@@ -1,7 +1,8 @@
-cons = #(hd, tl, #(x, if(x, hd, tl)))
-car  = #(l, l(true ))
-cdr  = #(l, l(false))
 
-lst  = cons(1, cons(2, nil))
+pair = #(hd, tl, #(x, if(x, hd, tl)))
+fst  = #(l, l(true ))
+rst  = #(l, l(false))
 
-car(cdr(lst))
+lst  = pair(1, pair(2, nil))
+
+fst(rst(lst))

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-cons = lambda hd, tl: lambda x: hd if x else tl
-car  = lambda l: l(True )
-cdr  = lambda l: l(False)
+pair = lambda hd, tl: lambda x: hd if x else tl
+fst  = lambda l: l(True )
+rst  = lambda l: l(False)
 
-lst  = cons(1, cons(2, None))
+lst  = pair(1, pair(2, None))
 
-car(cdr(lst))
+fst(rst(lst))

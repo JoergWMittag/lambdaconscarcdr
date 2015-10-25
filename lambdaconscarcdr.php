@@ -1,15 +1,15 @@
 #!/usr/bin/env php
 
 <?php
-$cons = function ($hd, $tl) {
+$pair = function ($hd, $tl) {
     return function ($x) use (&$hd, &$tl) {
         return $x ? $hd : $tl;
     };};
 
-$car  = function ($l) { return $l(true ); };
-$cdr  = function ($l) { return $l(false); };
+$fst  = function ($l) { return $l(true ); };
+$rst  = function ($l) { return $l(false); };
 
-$lst  = $cons(1, $cons(2, null));
+$lst  = $pair(1, $pair(2, null));
 
-$car($cdr($lst));
+$fst($rst($lst));
 ?>
