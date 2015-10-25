@@ -1,3 +1,5 @@
+#!/usr/bin/env lua
+
 local pair = function (hd, tl)
   return function (x) if x then return hd else return tl end end
 end

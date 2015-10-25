@@ -1,3 +1,4 @@
+#!/usr/bin/env ioke
 
 pair = fn(hd, tl, fn(x, if(x, hd, tl)))
 fst  = fn(l, l(true ))

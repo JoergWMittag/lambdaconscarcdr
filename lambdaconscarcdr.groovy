@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 
 final def Pair = { hd, tl -> { x -> x ? hd : tl }}
 final def Fst  = { it(true ) }

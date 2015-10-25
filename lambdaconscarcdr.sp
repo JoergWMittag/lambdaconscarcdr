@@ -1,3 +1,4 @@
+#!/usr/bin/env seph
 
 pair = #(hd, tl, #(x, if(x, hd, tl)))
 fst  = #(l, l(true ))

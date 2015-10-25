@@ -1,3 +1,4 @@
+#!/usr/bin/env coffee
 
 pair = (hd, tl) -> (x) -> if x then hd else tl
 fst  = (l) -> l true

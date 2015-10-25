@@ -1,3 +1,4 @@
+#!/usr/bin/env rebol
 ; Note: This is REBOL, not R.
 
 pair: closure [hd tl] [funct [x] [either x [:hd] [:tl]]]

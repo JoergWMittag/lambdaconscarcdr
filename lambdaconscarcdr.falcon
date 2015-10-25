@@ -1,3 +1,4 @@
+#!/usr/bin/env falcon
 
 pair = { hd, tl => { x => x ? hd : tl }}
 fst  = { l => l(true ) }
