@@ -16,6 +16,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.io)
 * [**Ioke**](http://Ioke.Org/): [lambdaconscarcdr.ik](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ik)
+* [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.jl)
 * [**Lua**](http://Lua.Org/): [lambdaconscarcdr.lua](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lua)
 * [**Perl**](http://Perl.Org/): [lambdaconscarcdr.pl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pl)
 * [**Perl6**](http://Perl6.Org/): [lambdaconscarcdr.p6](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.p6)
