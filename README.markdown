@@ -13,6 +13,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Dart**](http://DartLang.Org/): [lambdaconscarcdr.dart](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.dart)
 * [**Dylan**](http://OpenDylan.Org/): [lambdaconscarcdr.dylan](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.dylan)
 * [**ECMAScript**](http://ECMAScript.Org/): [lambdaconscarcdr.js](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.js)
+* [**Elixir**](http://Elixir-Lang.Org/): [lambdaconscarcdr.exs](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.exs)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.falcon)
 * [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.io)
