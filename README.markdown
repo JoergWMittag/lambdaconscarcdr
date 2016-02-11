@@ -7,6 +7,7 @@ This is a nice example of how not only code is data, but also data is code.
 
 Here’s the Scheme code and ports to many other languages:
 
+* [**Arc**](http://ArcLanguage.Org/): [lambdaconscarcdr.arc](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.arc)
 * [**Clojure**](http://Clojure.Org/): [lambdaconscarcdr.clj](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.clj)
 * [**CoffeeScript**](http://CoffeeScript.Org/): [lambdaconscarcdr.coffee](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.coffee)
 * [**Common Lisp**](http://CLiki.Net/): [lambdaconscarcdr.lisp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lisp)
