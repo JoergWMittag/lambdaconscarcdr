@@ -2,10 +2,10 @@
 
 use v6;
 
-my $pair = -> $hd, $tl { -> $x { if $x {$hd} else {$tl} }}
-my $fst  = { $^l(True ) }
-my $rst  = { $^l(False) }
+my $kons  = -> $hd, $tl { -> $x { if $x {$hd} else {$tl} }}
+my $virst = { $^l(True ) }
+my $rrest = { $^l(False) }
 
-my $lst  = $pair(1, $pair(2, Nil));
+my $lstt  = $kons(1, $kons(2, Nil));
 
-$fst($rst($lst))
+$virst($rrest($lstt))

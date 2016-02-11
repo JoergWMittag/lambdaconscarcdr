@@ -1,9 +1,9 @@
 #!/usr/bin/env elixir
 
-pair = fn hd, tl -> fn x -> if x do hd else tl end end end
-fst  = fn l -> l.(true ) end
-rst  = fn l -> l.(false) end
+kons  = fn hd, tl -> fn x -> if x do hd else tl end end end
+virst = fn l -> l.(true ) end
+rrest = fn l -> l.(false) end
 
-lst  = pair.(1, pair.(2, nil))
+lstt  = kons.(1, kons.(2, nil))
 
-fst.(rst.(lst))
+virst.(rrest.(lstt))

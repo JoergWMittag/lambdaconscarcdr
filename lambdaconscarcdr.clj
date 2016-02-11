@@ -1,12 +1,12 @@
-(defn pair [hd tl]
+(defn kons [hd tl]
   #(if % hd tl))
 
-(defn fst [l]
+(defn virst [l]
   (l true ))
 
-(defn rst [l]
+(defn rrest [l]
   (l false))
 
-(def lst (pair 1 (pair 2 nil)))
+(def lstt (kons 1 (kons 2 nil)))
 
-(fst (rst lst))
+(virst (rrest lstt))

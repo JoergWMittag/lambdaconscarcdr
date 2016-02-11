@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 
-final def Pair = { hd, tl -> { x -> x ? hd : tl }}
-final def Fst  = { it(true ) }
-final def Rst  = { it(false) }
+final def Kons  = { hd, tl -> { x -> x ? hd : tl }}
+final def Virst = { it(true ) }
+final def Rrest = { it(false) }
 
-final def Lst  = Pair(1, Pair(2, null))
+final def Lstt  = Kons(1, Kons(2, null))
 
-Fst(Rst(Lst))
+Virst(Rrest(Lstt))

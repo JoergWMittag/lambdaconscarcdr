@@ -1,9 +1,9 @@
 #!/usr/bin/env io
 
-pair := method(hd, tl, block(x, if(x, hd, tl)))
-fst  := method(l, l call(true ))
-rst  := method(l, l call(false))
+kons  := method(hd, tl, block(x, if(x, hd, tl)))
+virst := method(l, l call(true ))
+rrest := method(l, l call(false))
 
-lst  := pair(1, pair(2, nil))
+lstt  := kons(1, kons(2, nil))
 
-fst(rst(lst))
+virst(rrest(lstt))

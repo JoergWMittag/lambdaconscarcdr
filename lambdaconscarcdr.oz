@@ -1,12 +1,12 @@
-local
-  fun {Pair Hd Tl}
+declare
+  fun {Kons Hd Tl}
     fun {$ X} if {X} then {Hd} else {Tl} end end
   end 
 
-  fun {Fst L} {L true } end
-  fun {Rst L} {L false} end
+  fun {Virst L} {L true } end
+  fun {Rrest L} {L false} end
 
-  Lst = {Pair 1 {Pair 2 nil}}
+  Lstt = {Kons 1 {Kons 2 nil}}
 in
-  {Fst {Rst Lst}}
+  {Virst {Rrest Lstt}}
 end

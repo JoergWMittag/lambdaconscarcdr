@@ -1,11 +1,11 @@
-(defun pair (hd tl)
+(defun kons (hd tl)
   (lambda (x)
     (if x hd tl)))
 
-(defun fst (l) (funcall l T  ))
-(defun rst (l) (funcall l NIL))
+(defun virst (l) (funcall l T  ))
+(defun rrest (l) (funcall l NIL))
 
-(defvar *lst*)
-(setf *lst* (pair 1 (pair 2 NIL)))
+(defvar *lstt*)
+(setf *lstt* (kons 1 (kons 2 NIL)))
 
-(fst (rst *lst*))
+(virst (rrest *lstt*))

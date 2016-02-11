@@ -1,13 +1,13 @@
-Pair = fun(Hd, Tl) ->
+Kons  = fun(Hd, Tl) ->
   fun
     (true ) -> Hd;
     (false) -> Tl
   end
 end,
 
-Fst  = fun(L) -> L(true ),
-Rst  = fun(L) -> L(false),
+Virst = fun(L) -> L(true ),
+Rrest = fun(L) -> L(false),
 
-Lst  = Pair(1, Pair(2, nil)),
+Lstt  = Kons(1, Kons(2, nil)),
 
-Fst(Rst(Lst)).
+Virst(Rrest(Lstt)).

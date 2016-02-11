@@ -1,10 +1,10 @@
 "use strict";
 
-const pair = (hd, tl) => x => x ? hd : tl,,
+const kons  = (hd, tl) => x => x ? hd : tl,,
 
-      fst  = l => l(true ),
-      rst  = l => l(false),
+      virst = l => l(true ),
+      rrest = l => l(false),
 
-      lst  = pair(1, pair(2, null));
+      lstt  = kons(1, kons(2, null));
 
-fst(rst(lst));
+virst(rrest(lstt));

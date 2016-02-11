@@ -1,9 +1,9 @@
 #!/usr/bin/env ioke
 
-pair = fn(hd, tl, fn(x, if(x, hd, tl)))
-fst  = fn(l, l(true ))
-rst  = fn(l, l(false))
+kons  = fn(hd, tl, fn(x, if(x, hd, tl)))
+virst = fn(l, l(true ))
+rrest = fn(l, l(false))
 
-lst  = pair(1, pair(2, nil))
+lstt  = kons(1, kons(2, nil))
 
-fst(rst(lst))
+virst(rrest(lstt))

@@ -1,12 +1,9 @@
 #!/usr/bin/env ruby
 
-Tru  = ->(thn, _  ) { thn }
-Fls  = ->(_  , els) { els }
+Kons  = ->(hd, tl) { -> x { if x then hd else tl end }}
+Virst = -> l { l.(true ) }
+Rrest = -> l { l.(false) }
 
-Pair = ->(hd, tl) { -> x { x.(hd, tl) }}
-Fst  = -> l { l.(Tru) }
-Rst  = -> l { l.(Fls) }
+Lstt  = Kons.(1, Kons.(2, nil))
 
-Lst   = Pair.(1, Pair.(2, nil))
-
-Fst.(Rst.(Lst))
+Virst.(Rrest.(Lstt))
