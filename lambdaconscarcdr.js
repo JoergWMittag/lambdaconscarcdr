@@ -1,6 +1,6 @@
 "use strict";
 
-const kons  = (hd, tl) => x => x ? hd : tl,,
+const kons  = (hd, tl) => x => x ? hd : tl,
 
       virst = l => l(true ),
       rrest = l => l(false),
