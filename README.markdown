@@ -13,6 +13,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Common Lisp**](http://CLiki.Net/): [lambdaconscarcdr.lisp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lisp)
 * [**Dart**](http://DartLang.Org/): [lambdaconscarcdr.dart](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.dart)
 * [**Dylan**](http://OpenDylan.Org/): [lambdaconscarcdr.dylan](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.dylan)
+* [**E**](http://ERights.Org/): [lambdaconscarcdr.e](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.e)
 * [**ECMAScript**](http://ECMAScript.Org/): [lambdaconscarcdr.es](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.es)
 * [**Elixir**](http://Elixir-Lang.Org/): [lambdaconscarcdr.exs](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.exs)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.falcon)
