@@ -33,6 +33,11 @@ Here’s the Scheme code and ports to many other languages:
 * [**Seph**](http://Seph-Lang.Org/): [lambdaconscarcdr.sp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sp)
 * [**Smalltalk**](http://Smalltalk.Org/): [lambdaconscarcdr.st](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.st)
 
+Untested
+--------
+
+* [**Fancy**](http://Fancy-Lang.Org/): [lambdaconscarcdr.fy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.fy)
+
 Broken
 ------
 
