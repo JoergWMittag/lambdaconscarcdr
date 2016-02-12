@@ -38,6 +38,7 @@ Here’s the Scheme code and ports to many other languages:
 Untested
 --------
 
+* [**Apricot**](https://GitHub.Com/Apricot-Lang/Apricot/): [lambdaconscarcdr.apr](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.apr)
 * [**Fancy**](http://Fancy-Lang.Org/): [lambdaconscarcdr.fy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.fy)
 
 Broken
