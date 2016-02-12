@@ -26,6 +26,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Perl**](http://Perl.Org/): [lambdaconscarcdr.pl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pl)
 * [**Perl6**](http://Perl6.Org/): [lambdaconscarcdr.p6](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.p6)
 * [**PHP**](http://PHP.Net/): [lambdaconscarcdr.php](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.php)
+* [**Pico**](http://Pico.VUB.Ac.Be): [lambdaconscarcdr.pico](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pico)
 * [**Potion**](http://Perl11.Org/potion/): [lambdaconscarcdr.pn](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pn)
 * [**Python**](http://Python.Org/): [lambdaconscarcdr.py](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.py)
 * [**REBOL**](http://REBOL.Com/): [lambdaconscarcdr.r](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.r)
