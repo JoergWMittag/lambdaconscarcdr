@@ -38,3 +38,4 @@ Broken
 
 * [**Erlang**](http://Erlang.Org/): [lambdaconscarcdr.erl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.erl)
 * [**Oz**](http://WWW.Mozart-Oz.Org/): [lambdaconscarcdr.oz](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.oz)
+* [**Self**](http://SelfLanguage.Org/): [lambdaconscarcdr.self](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.self)
