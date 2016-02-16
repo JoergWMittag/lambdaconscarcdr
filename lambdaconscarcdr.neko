@@ -1,0 +1,7 @@
+var kons  = function (hd, tl) { function (x) { if (x) {hd} else {tl} }},
+    virst = function (l) { l(true ) },
+    rrest = function (l) { l(false) },
+
+    lstt  = kons(1, kons(2, null));
+
+virst(rrest(lstt));
