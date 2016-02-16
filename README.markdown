@@ -19,6 +19,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**F-Script**](http://FScript.Org/): [lambdaconscarcdr.fscript](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.fscript)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.falcon)
 * [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
+* [**Hack**](http://HackLang.Org/): [lambdaconscarcdr.hh](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.hh)
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.io)
 * [**Ioke**](http://Ioke.Org/): [lambdaconscarcdr.ik](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ik)
 * [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.jl)
