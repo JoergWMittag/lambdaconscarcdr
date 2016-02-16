@@ -2,7 +2,7 @@
 
 <?php
 $kons  = function ($hd, $tl) {
-    return function ($x) use (&$hd, &$tl) {
+    return function ($x) use ($hd, $tl) {
         return $x ? $hd : $tl;
     };};
 
