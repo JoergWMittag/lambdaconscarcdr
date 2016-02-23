@@ -1,0 +1,11 @@
+#!/usr/bin/env goo
+
+(df kons (hd tl)
+  { (x) \ (if x hd tl) })
+
+(df virst (l) (l true ))
+(df rrest (l) (l false))
+
+(def lstt (kons 1 (kons 2 nil)))
+
+(virst (rrest lstt))
