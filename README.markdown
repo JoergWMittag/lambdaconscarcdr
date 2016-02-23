@@ -17,6 +17,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**E**](http://ERights.Org/): [lambdaconscarcdr.e](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.e)
 * [**ECMAScript**](http://ECMAScript.Org/): [lambdaconscarcdr.es](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.es)
 * [**Elixir**](http://Elixir-Lang.Org/): [lambdaconscarcdr.exs](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.exs)
+* [**Erlang**](http://Erlang.Org/): [lambdaconscarcdr.erl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.erl)
 * [**F-Script**](http://FScript.Org/): [lambdaconscarcdr.fscript](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.fscript)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.falcon)
 * [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.groovy)
@@ -56,7 +57,6 @@ Untested
 Broken
 ------
 
-* [**Erlang**](http://Erlang.Org/): [lambdaconscarcdr.erl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.erl)
 * [**Oz**](http://WWW.Mozart-Oz.Org/): [lambdaconscarcdr.oz](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.oz)
 * [**PicoLisp**](http://PicoLisp.Com/): [lambdaconscarcdr.l](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.l)
 * [**Self**](http://SelfLanguage.Org/): [lambdaconscarcdr.self](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.self)

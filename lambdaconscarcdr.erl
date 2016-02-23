@@ -5,8 +5,8 @@ Kons  = fun(Hd, Tl) ->
   end
 end,
 
-Virst = fun(L) -> L(true ),
-Rrest = fun(L) -> L(false),
+Virst = fun(L) -> L(true ) end,
+Rrest = fun(L) -> L(false) end,
 
 Lstt  = Kons(1, Kons(2, nil)),
 
