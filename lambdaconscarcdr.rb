@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
 
-Kons  = ->(hd, tl) { -> x { if x then hd else tl end }}
-Virst = -> l { l.(true ) }
-Rrest = -> l { l.(false) }
+Tru   = ->(thn, _  ) { thn }
+Fls   = ->(_  , els) { els }
+
+Kons  = ->(hd, tl) { -> x { x.(hd, tl) }}
+Virst = -> l { l.(Tru) }
+Rrest = -> l { l.(Fls) }
 
 Lstt  = Kons.(1, Kons.(2, nil))
 

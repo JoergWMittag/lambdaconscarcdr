@@ -1,9 +1,11 @@
 "use strict";
 
-const kons  = (hd, tl) => x => x ? hd : tl,
+const tru   = (thn, _  ) => thn,
+      fls   = (_  , els) => els,
 
-      virst = l => l(true ),
-      rrest = l => l(false),
+      kons  = (hd, tl) => x => x(hd, tl),
+      virst = l => l(tru),
+      rrest = l => l(fls),
 
       lstt  = kons(1, kons(2, null));
 
