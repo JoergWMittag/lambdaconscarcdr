@@ -1,0 +1,17 @@
+#!/usr/bin/env converge
+
+kons  := func (hd, tl):
+    return func (x):
+        return if x then:
+            hd
+    else: tl
+
+virst := func (l): 
+    return l(true )
+
+rrest := func (l):
+    return l(false)
+
+lstt  := kons(1, kons(2, null))
+
+virst(rrest(lstt))
