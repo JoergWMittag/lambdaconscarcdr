@@ -1,0 +1,11 @@
+#!/usr/bin/env Rscript
+
+kons <- function(hd, tl=NULL)
+  function(x) if (x) hd else tl
+
+virst <- function(l) l(TRUE )
+rrest <- function(l) l(FALSE)
+
+lstt <- kons(1, kons(2))
+
+virst(rrest(lstt))
