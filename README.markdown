@@ -30,6 +30,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Neko**](http://NekoVM.Org/#the_neko_programming_language): [lambdaconscarcdr.neko](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.neko)
 * [**Newspeak**](http://NewspeakLanguage.Org/): [lambdaconscarcdr.ns](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ns)
 * [**Octave**](https://GNU.Org/software/octave/): [lambdaconscarcdr.m](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.m)
+* [**Oz**](http://WWW.Mozart-Oz.Org/): [lambdaconscarcdr.oz](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.oz)
 * [**Perl**](http://Perl.Org/): [lambdaconscarcdr.pl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pl)
 * [**Perl6**](http://Perl6.Org/): [lambdaconscarcdr.p6](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.p6)
 * [**PHP**](http://PHP.Net/): [lambdaconscarcdr.php](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.php)
@@ -57,6 +58,5 @@ Untested
 Broken
 ------
 
-* [**Oz**](http://WWW.Mozart-Oz.Org/): [lambdaconscarcdr.oz](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.oz)
 * [**PicoLisp**](http://PicoLisp.Com/): [lambdaconscarcdr.l](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.l)
 * [**Self**](http://SelfLanguage.Org/): [lambdaconscarcdr.self](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.self)
