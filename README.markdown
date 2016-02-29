@@ -58,5 +58,4 @@ Untested
 Broken
 ------
 
-* [**PicoLisp**](http://PicoLisp.Com/): [lambdaconscarcdr.l](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.l)
 * [**Self**](http://SelfLanguage.Org/): [lambdaconscarcdr.self](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.self)
