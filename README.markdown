@@ -54,8 +54,3 @@ Untested
 * [**GOO**](http://people.csail.mit.edu/jrb/goo/): [lambdaconscarcdr.goo](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.goo)
 * [**Lambra**](https://GitHub.Com/txus/Lambra/): [lambdaconscarcdr.lm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lm)
 * [**Nu**](http://Programming.Nu/): [lambdaconscarcdr.nu](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.nu)
-
-Broken
-------
-
-* [**Self**](http://SelfLanguage.Org/): [lambdaconscarcdr.self](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.self)
