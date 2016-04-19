@@ -1,0 +1,12 @@
+[letrec
+    '[
+        kons:  [lambda '[hd: 1 tl: 2] '[lambda '[x: 1] '[if x then: hd else: tl]]]
+
+        virst: [lambda '[l: 1] '[l true ]]
+        rrest: [lambda '[l: 1] '[l false]]
+
+        lstt:  [kons 1 [kons 2 nil]]
+    ]
+
+    '[virst [rrest lstt]]
+]
