@@ -5,7 +5,6 @@
 (defun virst (l) (funcall l T  ))
 (defun rrest (l) (funcall l NIL))
 
-(defvar *lstt*)
-(setf *lstt* (kons 1 (kons 2 NIL)))
+(defvar *lstt* (kons 1 (kons 2 NIL)))
 
 (virst (rrest *lstt*))
