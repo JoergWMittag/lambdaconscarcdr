@@ -1,5 +1,3 @@
-#!/usr/bin/env nush
-
 (function kons (hd tl)
   (do (x)
     (if x hd (else tl))))
