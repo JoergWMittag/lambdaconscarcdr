@@ -1,0 +1,7 @@
+val kons  = fn(hd, tl) fn(x) if x then hd else tl
+val virst = fn(l) l call(true )
+val rrest = fn(l) l call(false)
+
+val lstt  = kons call(1, kons call(2, nothing))
+
+virst call(rrest call(lstt))

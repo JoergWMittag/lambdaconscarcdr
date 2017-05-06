@@ -29,6 +29,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.jl)
 * [**LFE**](http://LFE.Io/): [lambdaconscarcdr.lfe](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lfe)
 * [**Lua**](http://Lua.Org/): [lambdaconscarcdr.lua](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lua)
+* [**Magpie**](http://Magpie-Lang.Org/): [lambdaconscarcdr.mag](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.mag)
 * [**MISC**](http://Will.Thimbleby.Net/misc/): [lambdaconscarcdr.misc](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.misc)
 * [**Monte**](http://Monte-Language.Org/): [lambdaconscarcdr.mt](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.mt)
 * [**Neko**](http://NekoVM.Org/#the_neko_programming_language): [lambdaconscarcdr.neko](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.neko)
