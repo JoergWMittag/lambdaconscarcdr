@@ -2,10 +2,10 @@
 
 use strict;
 use warnings;
+use feature 'signatures';
 
-my $kons  = sub {
-  my ($hd, $tl) = @_;
-  sub { if (shift) {$hd} else {$tl} }
+my $kons  = sub ($hd, $tl) {
+  sub ($x) { if ($x) {$hd} else {$tl} }
 };
 
 my $virst = sub { shift->(1    ) };
