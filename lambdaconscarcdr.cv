@@ -1,6 +1,6 @@
 #!/usr/bin/env converge
 
-kons  := func (hd, tl):
+kons  := func (hd, tl := null):
     return func (x):
         return if x then:
             hd
@@ -12,6 +12,6 @@ virst := func (l):
 rrest := func (l):
     return l(false)
 
-lstt  := kons(1, kons(2, null))
+lstt  := kons(1, kons(2))
 
 virst(rrest(lstt))

@@ -7,6 +7,6 @@ end
 local virst = function (l) return l(true ) end
 local rrest = function (l) return l(false) end
 
-local lstt  = kons(1, kons(2, nil))
+local lstt  = kons(1, kons(2))
 
 virst(rrest(lstt))
