@@ -1,0 +1,10 @@
+(define method (kons hd tl)
+  (^ (x)
+    (if x hd tl)))
+
+(define method (virst l) (l true ))
+(define method (rrest l) (l false))
+
+(define variable lstt (kons 1 (kons 2 undefined)))
+
+(virst (rrest lstt))
