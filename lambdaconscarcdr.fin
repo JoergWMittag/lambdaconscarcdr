@@ -1,0 +1,9 @@
+#!/usr/bin/env finch
+
+kons  <- {|hd tl| {|x| if: x then: hd else: tl }}
+virst <- {|l| l call: true  }
+rrest <- {|l| l call: false }
+
+lstt  <- kons call: 1 : (kons call: 2)
+
+virst call: (rrest call: lstt)
