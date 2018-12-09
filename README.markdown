@@ -59,6 +59,7 @@ Untested
 --------
 
 * [**Apricot**](https://GitHub.Com/Apricot-Lang/Apricot/): [lambdaconscarcdr.apr](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.apr)
+* [**Atomo**](http://Atomo-Lang.Org/): [lambdaconscarcdr.atomo](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.atomo)
 * [**Converge**](http://ConvergePL.Org/): [lambdaconscarcdr.cv](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.cv)
 * [**Fancy**](http://Fancy-Lang.Org/): [lambdaconscarcdr.fy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.fy)
 * [**GOO**](http://people.csail.mit.edu/jrb/goo/): [lambdaconscarcdr.goo](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.goo)

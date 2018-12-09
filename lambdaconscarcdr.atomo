@@ -1,0 +1,7 @@
+kons  = { hd tl | @(if: _ then: hd else: tl) }
+virst = @(call: true )
+rrest = @(call: false)
+
+lstt  = kons call: (1, kons call: (2, nil))
+
+virst call: rrest call: lstt
