@@ -29,6 +29,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.io)
 * [**Ioke**](http://Ioke.Org/): [lambdaconscarcdr.ik](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ik)
 * [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.jl)
+* [**Lark**](https://GitHub.Com/munificent/lark): [lambdaconscarcdr.lark](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lark)
 * [**LFE**](http://LFE.Io/): [lambdaconscarcdr.lfe](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lfe)
 * [**Lua**](http://Lua.Org/): [lambdaconscarcdr.lua](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lua)
 * [**Magpie**](http://Magpie-Lang.Org/): [lambdaconscarcdr.mag](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.mag)
