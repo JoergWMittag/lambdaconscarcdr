@@ -45,6 +45,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Pico**](http://Pico.VUB.Ac.Be): [lambdaconscarcdr.pico](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pico)
 * [**Pike**](http://Pike.Lysator.LIU.Se): [lambdaconscarcdr.pike](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pike)
 * [**Potion**](http://Perl11.Org/potion/): [lambdaconscarcdr.pn](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.pn)
+* [**Pyret**](https://WWW.Pyret.Org/): [lambdaconscarcdr.arr](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.arr)
 * [**Python**](http://Python.Org/): [lambdaconscarcdr.py](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.py)
 * [**REBOL**](http://REBOL.Com/): [lambdaconscarcdr.r](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.r)
 * [**R**](http://R-Project.Org/): [lambdaconscarcdr.Rscript](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.Rscript)
