@@ -1,0 +1,9 @@
+#!/usr/bin/env coke
+
+kons = def(hd, tl=undefined) def(x) hd if x else tl
+virst = def(l) l(true )
+rrest = def(l) l(false)
+
+lstt = kons(1, kons(2))
+
+virst(rrest(lstt))
