@@ -1,0 +1,9 @@
+#!/usr/bin/env coconut
+
+kons  = (hd, tl=None) -> -> hd if _ else tl
+virst = -> True  |> _
+rrest = -> False |> _
+
+lstt  = (1, 2 |> kons) |*> kons
+
+lstt |> rrest |> virst
