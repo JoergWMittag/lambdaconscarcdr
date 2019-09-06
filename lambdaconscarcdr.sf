@@ -1,0 +1,9 @@
+#!/usr/bin/env sidef
+
+define kons  = -> (hd, tl=nil) { { _ ? hd : tl } }
+define virst = { _(true ) }
+define rrest = { _(false) }
+
+define lstt  = kons(1, kons(2));
+
+virst(rrest(lstt))
