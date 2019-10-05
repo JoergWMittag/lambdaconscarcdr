@@ -34,6 +34,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.jl)
 * [**Lark**](https://GitHub.Com/munificent/lark): [lambdaconscarcdr.lark](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lark)
 * [**LFE**](http://LFE.Io/): [lambdaconscarcdr.lfe](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lfe)
+* [**LiveScript**](https://LiveScript.Net/): [lambdaconscarcdr.ls](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.ls)
 * [**Lua**](http://Lua.Org/): [lambdaconscarcdr.lua](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.lua)
 * [**Magpie**](http://Magpie-Lang.Org/): [lambdaconscarcdr.mag](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.mag)
 * [**MISC**](http://Will.Thimbleby.Net/misc/): [lambdaconscarcdr.misc](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.misc)
