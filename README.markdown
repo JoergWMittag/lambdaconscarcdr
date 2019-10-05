@@ -57,6 +57,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Scheme**](http://R7RS.Org/): [lambdaconscarcdr.scm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.scm)
 * [**Seph**](http://Seph-Lang.Org/): [lambdaconscarcdr.sp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sp)
 * [**Sidef**](https://GitHub.Com/Trizen/Sidef/): [lambdaconscarcdr.sf](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sf)
+* [**Skew**](http://Skew-Lang.Org/): [lambdaconscarcdr.sk](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.sk)
 * [**Smalltalk**](http://Smalltalk.Org/): [lambdaconscarcdr.st](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.st)
 * [**Squirrel**](http://Squirrel-Lang.Org/): [lambdaconscarcdr.nut](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.nut)
 * [**Wisp**](https://GitHub.Com/Gozala/Wisp/): [lambdaconscarcdr.wisp](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/lambdaconscarcdr.wisp)

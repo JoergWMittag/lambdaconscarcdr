@@ -1,0 +1,14 @@
+def lambdaconscarcdr dynamic {
+  const kons  = (hd dynamic, tl dynamic) => (x dynamic) => x ? hd : tl
+  const virst = (l dynamic) => l(true )
+  const rrest = (l dynamic) => l(false)
+
+  const lstt  = kons(1, (kons(2, null)))
+
+  return virst(rrest(lstt))
+}
+
+@entry
+def main {
+  lambdaconscarcdr
+}
