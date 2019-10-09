@@ -74,4 +74,5 @@ Untested
 * [**Finch**](http://Finch.StuffWithStuff.Com/): [lambdaconscarcdr.fin](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Finch/lambdaconscarcdr.fin)
 * [**GOO**](http://people.csail.mit.edu/jrb/goo/): [lambdaconscarcdr.goo](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/GOO/lambdaconscarcdr.goo)
 * [**Lambra**](https://GitHub.Com/txus/Lambra/): [lambdaconscarcdr.lm](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Lambra/lambdaconscarcdr.lm)
+* [**Lydia**](https://GitHub.Com/seven1m/Lydia/): [lambdaconscarcdr.lid](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Lydia/lambdaconscarcdr.lid)
 * [**Nu**](http://Programming.Nu/): [lambdaconscarcdr.nu](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Nu/lambdaconscarcdr.nu)
