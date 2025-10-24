@@ -26,6 +26,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Erlang**](http://Erlang.Org/): [lambdaconscarcdr.erl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Erlang/lambdaconscarcdr.erl)
 * [**F-Script**](http://FScript.Org/): [lambdaconscarcdr.fscript](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/F-Script/lambdaconscarcdr.fscript)
 * [**Falcon**](http://FalconPL.Org/): [lambdaconscarcdr.falcon](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Falcon/lambdaconscarcdr.falcon)
+* [**Fennel**](https://Fennel-Lang.Org/): [lambdaconscarcdr.fnl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Fennel/lambdaconscarcdr.fnl)
 * [**Grace**](http://GraceLang.Org/): [lambdaconscarcdr.grace](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Grace/lambdaconscarcdr.grace)
 * [**Groovy**](http://Groovy-Lang.Org/): [lambdaconscarcdr.groovy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Groovy/lambdaconscarcdr.groovy)
 * [**Hack**](http://HackLang.Org/): [lambdaconscarcdr.hh](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Hack/lambdaconscarcdr.hh)
