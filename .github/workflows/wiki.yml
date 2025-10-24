@@ -1,0 +1,33 @@
+name: Update Wiki from README
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - README.markdown
+    - .github/workflows/wiki.yml
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+      with:
+        sparse-checkout: README.markdown
+    - name: Rename index page
+      run: mv README.markdown Home.md
+    - name: Deploy to GitHub Wiki
+      uses: Andrew-Chen-Wang/github-wiki-action@v5
+      with:
+        path: .
+        ignore: _config.yml
