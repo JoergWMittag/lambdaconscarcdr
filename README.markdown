@@ -33,6 +33,7 @@ Here’s the Scheme code and ports to many other languages:
 * [**Hy**](http://HyLang.Org/): [lambdaconscarcdr.hy](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Hy/lambdaconscarcdr.hy)
 * [**Io**](http://IoLanguage.Com/): [lambdaconscarcdr.io](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Io/lambdaconscarcdr.io)
 * [**Ioke**](http://Ioke.Org/): [lambdaconscarcdr.ik](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Ioke/lambdaconscarcdr.ik)
+* [**Janet**](https://Janet-Lang.Org/): [lambdaconscarcdr.janet](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Janet/lambdaconscarcdr.janet)
 * [**Julia**](http://JuliaLang.Org/): [lambdaconscarcdr.jl](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Julia/lambdaconscarcdr.jl)
 * [**Lark**](https://GitHub.Com/munificent/lark): [lambdaconscarcdr.lark](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/Lark/lambdaconscarcdr.lark)
 * [**LFE**](http://LFE.Io/): [lambdaconscarcdr.lfe](https://GitHub.Com/JoergWMittag/lambdaconscarcdr/blob/master/LFE/lambdaconscarcdr.lfe)
